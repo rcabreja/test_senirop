@@ -1,6 +1,3 @@
-
-import time
-
 class BicycleLock():
     @classmethod
     def makeDistinct(array, input):
@@ -30,9 +27,6 @@ class BicycleLock():
                         break
         output = "".join(output)
         return output
-
-
-
 bicy_lock = ([8, 8, 0, 9])
 print(BicycleLock.makeDistinct(bicy_lock))
 
